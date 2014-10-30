@@ -641,6 +641,13 @@ button {
     transition: background-color 0.2s ease-out;
 }
 
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+button:focus {outline:0;}
+
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
