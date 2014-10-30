@@ -49,6 +49,7 @@ hr {
     opacity: 0.6;
     margin: 40px auto;
 }
+
 /****************************************************
             Styling for WRITTEN PARA
 ****************************************************/
@@ -63,6 +64,19 @@ hr {
     margin: 15px auto;
     width: 93%;
     line-height: 30px;
+}
+.writing-paragraph-poem {
+    display: block;
+    text-align: left;
+    padding-left: 30.5%;
+    font-family: 'Droid Serif',Georgia, Cambria ,"Times New Roman",Times,serif;
+    color: rgba(0,0,0,0.75);
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 15px auto;
+    width: 93%;
+    line-height: 22px;
 }
 
 .writing-title {
@@ -987,6 +1001,9 @@ fieldset {
     input[type="email"],
     button {
         padding: 20px;
+    }
+    input[type="email"] {
+        text-decoration: none;
     }
     .contact-content-center {
         position: relative;
