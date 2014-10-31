@@ -22,6 +22,9 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+  $('.cloudface').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/5YRwuvsSgSw?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.vaticanshadow').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/6zInHYPioyY?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
@@ -169,7 +172,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   
   $entypo = $('[class*="entypo-play"]');
-  $entypo.css("opacity", "0");
+  $entypo.css("opacity", "0", 'line-height', '400px').css('line-height', '400px');
 
   if( $(window).width() > 768 ) {
   $entypo.mouseover(function() {

@@ -93,6 +93,9 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+  $('.cloudface').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/5YRwuvsSgSw?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.vaticanshadow').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/6zInHYPioyY?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
@@ -344,5 +347,6 @@ $(document).ready(function(){
       $(this).animate({'opacity': '0'});
     });
   }
+
 });
 
