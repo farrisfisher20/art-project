@@ -729,6 +729,9 @@ fieldset {
     font-family: "Raleway","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
     opacity: 0.9;
 }
+.art-post-link {
+    text-decoration: underline;
+}
 /************************************************
             Music-Post Styling
 ***********************************************/
