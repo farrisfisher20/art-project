@@ -843,7 +843,6 @@ fieldset {
         width: 98%;
         margin: 0px auto;
     }
-
     .content1, .content {
         width: 100%;
         margin: 25px  auto 10px auto;
@@ -997,6 +996,9 @@ fieldset {
         width: 93%;
         line-height: 28px;
     }
+    .writing-paragraph-poem {
+        padding-left: 26%;
+    }
 
 
     /************************************************
@@ -1087,6 +1089,9 @@ fieldset {
     .art-post-art {
         margin: auto;
     }
+    .writing-paragraph-poem {
+       padding-left: 20%;
+    }
 }
 
 /************************************************
@@ -1119,6 +1124,9 @@ fieldset {
     .videofloat {
         float: none;
         margin: 0 auto;
+    }
+    .writing-paragraph-poem {
+       padding-left: 13%;
     }
 
 }
