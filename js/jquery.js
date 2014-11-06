@@ -93,6 +93,9 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+  $('.versalife-vantagepoint').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/6EmWOTl1Gxs?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.cloudface').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/5YRwuvsSgSw?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
