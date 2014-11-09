@@ -824,11 +824,9 @@ fieldset {
         margin: 0px;
         padding: 0px;
     }
-
     p {
         line-height: 1.8em;
     }
-    
     .logo,
     .triangleMusic,
     .triangleContact,
@@ -838,12 +836,10 @@ fieldset {
     .triangleArt {
         display: none;
     }
-
     #wrapper {
         width: 98%;
         margin: 0px auto;
     }
-
     .content1, .content {
         width: 100%;
         margin: 25px  auto 10px auto;
@@ -851,13 +847,10 @@ fieldset {
         border-bottom: 1px solid #b9c9b8;
         overflow: auto;
     }
-
     #unstyle {
         text-align: center;
         margin: 0px auto;
     }
-
-
     #unstyle ul li{
         text-align: center;
         padding: 3px 8px;
@@ -888,31 +881,7 @@ fieldset {
         font-size: 150%;
         margin-bottom: 15px;
     }
-    
-    .writing-title {
-        margin: 35px auto 15px auto;
-    }
-    .writing-epilogue {
-        width: 80%;
-    }
-    .thumbImage {
-        display: inline-block;
-        float: none;
-        width: 49%;
-        height: 49%;
-    }
-    #gallery #largeImage6,
-    #gallery #largeImage5,
-    #gallery #largeImage4,
-    #gallery #largeImage3,
-    #gallery #largeImage2,
-    #gallery #largeImage1, 
-    #gallery #largeImage,
-    #mygallery #largeImage1,
-    #mygallery #largeImage {
-        display: none;
-    }
-        .videofloat {
+    .videofloat {
         float: none;
         margin: 0 auto;
     }
@@ -977,9 +946,6 @@ fieldset {
         border-bottom: 1px solid #a1b1a0;
         clear: both;
     }
-
-
-
     .content-left {
         clear: both;
 
@@ -989,13 +955,33 @@ fieldset {
        clear: both;
         display: block;
     }
-    .writing-paragraph {
-        text-align: justify;
-        font-size: 14px;
-        letter-spacing: 1px;
-        margin: 15px auto;
-        width: 93%;
-        line-height: 28px;
+
+    /************************************************
+            Music-Post Styling
+    ***********************************************/
+
+    .music-post-videofloat {
+        position: relative;
+        margin: 5px;
+        width: 98%;
+        height: 230px;
+    }
+    .music-artist-info-container {
+        position: relative; 
+    }
+    .artist-content-left {
+        margin: 10px auto;
+        clear: both;
+    }
+    .music-click-image {
+        margin: 10px 0px -25px 0px;
+    }
+    .music-label-link {
+        margin-bottom: -7px;
+    }
+
+    .music-line-height {
+        line-height: 430px !important;
     }
 
 /************************************************
@@ -1005,8 +991,9 @@ fieldset {
 @media screen and (max-width: 600px){
     
     p {
-        line-height: 1.35em;
+        line-height: 1.4em;
         text-align: left;
+        margin: 8px;
     }
 
     .writing-epilogue {

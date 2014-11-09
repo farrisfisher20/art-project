@@ -22,12 +22,11 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+  $('.jaredwilson').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/_hGmwtSpabM?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.versalife-vantagepoint').on('click', function() {
-<<<<<<< HEAD
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/6EmWOTl1Gxs?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
-=======
-      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/sHF7Gee6Qec?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
->>>>>>> 1d0dcfa306e5b146e6727654ad79fc88bb73ca73
   });
   $('.cloudface').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/5YRwuvsSgSw?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');

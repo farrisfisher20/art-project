@@ -732,6 +732,7 @@ fieldset {
 .art-post-link {
     text-decoration: underline;
 }
+
 /************************************************
             Music-Post Styling
 ***********************************************/
@@ -740,7 +741,7 @@ fieldset {
     position: relative;
     margin: 15px;
     width: 97%;
-    min-height: 454px;
+    min-height: 100%;
 }
 .music-artist-info-container {
     position: relative; 
