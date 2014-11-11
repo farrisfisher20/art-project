@@ -120,7 +120,7 @@ $(document).ready(function(){
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/-PJPXq0EauM?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
   $('.ekman').on('click', function() {
-      $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/psd_-pF6J2w?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+      $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/RkswC1zsh2k?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
   $('.getthebalance').on('click', function() {
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/OvmADvzaLRA?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
@@ -166,7 +166,7 @@ $(document).ready(function(){
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/M8n4f4xosgc?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
   $('.evigt').on('click', function() {
-      $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/kuRg9KTpoHs?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+      $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/ZNkZyQXhRYA?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
   $('.jackj').on('click', function() {
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/W6FSAP5Gcvs?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
@@ -256,7 +256,7 @@ $(document).ready(function(){
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/cgxYOOLLLFE?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
   $('.play-all-button').on('click', function() {
-      $(".play-list-wrapper").html('<iframe width="100%" height="100%" src="http://www.youtube.com/embed/_hGmwtSpabM?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+      $(".play-list-wrapper").html('<iframe width="100%" height="100%" src="http://www.youtube.com/embed/videoseries?list=PLBA54BRzfYavrZbMCnw9lUdhcZ7Z3ypE1&autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
 });
 /***********************************
