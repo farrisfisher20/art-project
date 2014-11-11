@@ -1,3 +1,10 @@
+
+$(document).ready(function(){
+  $('.play-all-button').click(function(){
+    $('.play-list-wrapper').removeClass("hidden").slideDown("600");
+  });
+});
+
 /***********************************
   Contact Form Confirmation
 ***********************************/
@@ -68,6 +75,13 @@ $(document).ready(function(){
     });
 });
 }
+if (window.outerWidth && window.outerWidth > 700) {
+$(document).ready(function(){
+     $('#thumbs7 img').click(function(){
+        $('#largeImage7').hide().attr('src',$(this).attr('src').replace('thumb','large')).fadeIn('350');
+    });
+});
+}
 /***********************************
   Scroll to top logo function
 ***********************************/
@@ -103,7 +117,7 @@ $(document).ready(function(){
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/5YRwuvsSgSw?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
   $('.vaticanshadow').on('click', function() {
-      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/6zInHYPioyY?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/-PJPXq0EauM?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
   $('.ekman').on('click', function() {
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/psd_-pF6J2w?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
@@ -240,6 +254,9 @@ $(document).ready(function(){
 
   $('.alva').on('click', function() {
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/cgxYOOLLLFE?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
+  $('.play-all-button').on('click', function() {
+      $(".play-list-wrapper").html('<iframe width="100%" height="100%" src="http://www.youtube.com/embed/_hGmwtSpabM?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
 });
 /***********************************

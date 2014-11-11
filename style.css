@@ -136,7 +136,8 @@ h2 {
     font-size: 0.9rem;
     font-weight: lighter;
     color: #353a35;
-    margin: 46px 0px 0px 198px
+    margin: 50px 0px 0px 198px;
+    opacity: 0.6;
 }
 
 ul {
@@ -484,7 +485,8 @@ a:hover  {
 #thumbs3,
 #thumbs4,
 #thumbs5,
-#thumbs6 {
+#thumbs6,
+#thumbs7 {
     cursor: pointer;
 }
 
@@ -762,6 +764,41 @@ fieldset {
 }
 
 /************************************************
+            Music Auto-Play 
+***********************************************/
+
+.play-list-hidden {
+    display: none;
+}
+.play-list-wrapper {
+    position: relative;
+    width: 87%;
+    height: 230px;
+    margin: 57px auto -40px auto
+}
+.play-list {}
+
+.play-all-wrapper {
+    position: relative;
+    margin-top: -10px;
+}
+
+.play-all-absolute {
+    position: absolute;
+    margin: 25px auto -28px 629px
+}
+
+p.play-all-button {
+    margin-bottom: -10px;
+    font-size: 1.45em;
+    font-family: "Roboto","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: lighter;
+    opacity: 0.8;
+    cursor: pointer;
+    padding: 2px 4px;
+}
+
+/************************************************
         MEDIA QUERIES FOR SCREENS 1024
 ***********************************************/
 
@@ -901,6 +938,7 @@ fieldset {
         width: 49%;
         height: 49%;
     }
+    #gallery #largeImage7,
     #gallery #largeImage6,
     #gallery #largeImage5,
     #gallery #largeImage4,
