@@ -762,11 +762,9 @@ fieldset {
 .music-line-height {
     line-height: 430px !important;
 }
-
 /************************************************
             Music Auto-Play 
 ***********************************************/
-
 .play-list-hidden {
     display: none;
 }
@@ -774,7 +772,7 @@ fieldset {
     position: relative;
     width: 87%;
     height: 230px;
-    margin: 57px auto -40px auto
+    margin: 57px auto -40px auto;
 }
 .play-list {}
 
@@ -782,35 +780,30 @@ fieldset {
     position: relative;
     margin-top: -10px;
 }
-
 .play-all-absolute {
-    position: absolute;
-    margin: 25px auto -28px 629px
+    position: fixed;
+    float: right;
+    margin: -43px auto -28px 911px;
 }
-
-p.play-all-button {
-    margin-bottom: -10px;
-    font-size: 1.45em;
-    font-family: "Roboto","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: lighter;
-    opacity: 0.8;
+.play-all-play,
+.play-all-pause {
     cursor: pointer;
-    padding: 2px 4px;
 }
-
+.play-all-tip {
+    color: #b9c9b8;
+    margin: -3px 0 0 9px
+}
 /************************************************
         MEDIA QUERIES FOR SCREENS 1024
 ***********************************************/
 
 @media screen and (max-width: 1024px){
-
     body {
         background-color: ;
     }
     .logo, .facebook, .instagram, .twitter {
         display: none;
     }
-
     .social-media {
 
         position: relative;
@@ -820,8 +813,6 @@ p.play-all-button {
         height: 100px;
         width: 100%;
     }
-
- 
     .twitter-mobile,
     .facebook-mobile,
     .instagram-mobile {
@@ -832,10 +823,6 @@ p.play-all-button {
         bottom: 0;
         margin: 10px;
     }
-
-
-
-
     .content1, .content {
     width: 840px;
     margin: 25px  auto 10px auto;
@@ -843,10 +830,6 @@ p.play-all-button {
     border-bottom: 1px solid #b9c9b8;
     overflow: auto;
     }
-
-
-
-
 }
 
 /************************************************

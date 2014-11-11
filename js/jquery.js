@@ -1,12 +1,32 @@
-
+/***********************************
+       Play button for music
+***********************************/
 $(document).ready(function(){
-  $('.play-all-button').click(function(){
-    $('.play-list-wrapper').removeClass("hidden").slideDown("600");
+  var $play = $('.play-all-play');
+  var $pause = $('.play-all-pause');
+  var $playWrapper = $('.play-list-wrapper');
+  var $playTip = $('play-all-tip');
+
+  $play.fadeIn('slow');
+
+  $play.click(function(){
+    $playWrapper.removeClass("hidden").slideDown("600");
+    $play.hide();
+    $pause.removeClass("hidden").show();
+  });
+  $pause.click(function(){
+    $playWrapper.slideUp("600");
+    $pause.hide();
+    $play.show();
+  });
+  $play.mouseover(
+      function(){ $playTip.removeClass('hidden'); 
+    }).mouseleave(function(){
+      $playTip.addClass('hidden');
   });
 });
-
 /***********************************
-  Contact Form Confirmation
+    Contact Form Confirmation
 ***********************************/
 
 $('.confirmation').hide();
@@ -255,9 +275,13 @@ $(document).ready(function(){
   $('.alva').on('click', function() {
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/cgxYOOLLLFE?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
-  $('.play-all-button').on('click', function() {
+  $('.play-all-play').on('click', function() {
       $(".play-list-wrapper").html('<iframe width="100%" height="100%" src="http://www.youtube.com/embed/videoseries?list=PLBA54BRzfYavrZbMCnw9lUdhcZ7Z3ypE1&autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
+  $('.play-all-pause').on('click', function() {
+      $(".play-list-wrapper").html('<iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
+
 });
 /***********************************
   Expand/Collapse Animation
