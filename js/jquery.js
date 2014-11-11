@@ -7,7 +7,7 @@ $(document).ready(function(){
   var $playWrapper = $('.play-list-wrapper');
   var $playTip = $('.play-all-tip');
 
-  $play.fadeIn(900);
+  $play.fadeIn(700);
 
   $play.click(function(){
     $('html, body').animate({scrollTop : 0});
