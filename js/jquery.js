@@ -5,17 +5,18 @@ $(document).ready(function(){
   var $play = $('.play-all-play');
   var $pause = $('.play-all-pause');
   var $playWrapper = $('.play-list-wrapper');
-  var $playTip = $('play-all-tip');
+  var $playTip = $('.play-all-tip');
 
-  $play.fadeIn('slow');
+  $play.fadeIn(900);
 
   $play.click(function(){
-    $playWrapper.removeClass("hidden").slideDown("600");
+    $('html, body').animate({scrollTop : 0});
+    $playWrapper.removeClass("hidden").slideDown(450);
     $play.hide();
     $pause.removeClass("hidden").show();
   });
   $pause.click(function(){
-    $playWrapper.slideUp("600");
+    $playWrapper.slideUp(450);
     $pause.hide();
     $play.show();
   });
