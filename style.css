@@ -1,4 +1,4 @@
-/*
+/*********************************************************************
     This website was designed by:
     Ronald Yang + Dennis Brotzky
     
@@ -7,18 +7,15 @@
     This is where the ghetto-magic happens
 
     questiones/comments/bugs -->
-    brotzky@gmail.com
-*/
-
+    send us a message through http://ecureuilmort.com/contact
+*********************************************************************/
 @import url(http://weloveiconfonts.com/api/?family=entypo);
-
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 body {
     height: 100%;
     margin: 10px 0px;
@@ -26,13 +23,10 @@ body {
     background-color: #FAFAFA;
     font-color: rgb(172, 189, 169);
 }
-
-
 @font-face {
     font-family: "Roboto";
     src: url(font/ASans.ttf) format("truetype");
 }
-
 p {
     text-align: justify;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -43,13 +37,11 @@ p {
     line-height: 1.4em;
     color: #444444;
 }
-
 hr {
     width: 60%;
     opacity: 0.6;
     margin: 40px auto;
 }
-
 /****************************************************
             Styling for WRITTEN PARA
 ****************************************************/
@@ -78,21 +70,18 @@ hr {
     width: 93%;
     line-height: 22px;
 }
-
 .writing-title {
     text-align: center;
     color: rgba(0,0,0,0.8);
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     margin: 8px auto;
 }
-
 .writing-title h5 {
     font-size: 2em;
     font-weight: 500;
     letter-spacing: 3px;
     margin: 0;
 }
-
 .writing-title h6 {
     font-size: 1em;
     font-weight: 500;
@@ -129,7 +118,6 @@ hr {
     left: 0;
     border-top: 1px solid rgba(53,58,53, 0.6);
 }
-
 h2 {
     position: absolute;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -137,29 +125,23 @@ h2 {
     font-weight: lighter;
     color: #353a35;
     margin: 50px 0px 0px 198px;
-    opacity: 0.6;
+    opacity: 0.8;
 }
-
 ul {
     margin: 0px;
 }
-
 #wrapper {
     width: 960px;
     margin: 0px auto;
     overflow: hidden;
 }
-
 #mygallery img {
     display: inline-block;
 }
-
 /* RELATING TO NAVIGATION*/
 #unstyle {
     margin: 0px 0px 0px 305px;
 }
-
-
 #unstyle ul li{
     position: relative;
     display: inline;
@@ -170,7 +152,6 @@ ul {
     padding: 3px 8px;
     border-bottom: 1px solid #353a35;
 }
-
 /* MOVEMEMT and stuff of nav bar*/
 #unstyle a {
     text-decoration: none;
@@ -186,7 +167,6 @@ ul {
     -o-transition: all 140ms;
     transition: all 140ms;
 }
-
 #unstyle li:hover a{
     color: #b9c9b8;
     background-color: none;
@@ -220,40 +200,31 @@ ul {
     border-bottom: 1px solid #b9c9b8;
     overflow: auto;
 }
-
 .indent {
     text-indent: 35px;
 }
-
 h1 {
     font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 20px;
     float: left;
 }
-
 .content-left {
     float: left;
     margin: 0px;
-
 }
 .content-left1 {
     margin: 0px 10px;
     display: inline;
 }
-
-
-
 /*FIXED POSITION FOR DEADSQUIRREL LOGO*/
 .logo {
     position: fixed;
     margin: 5px 0px 0px -28px;
 }
-
 .logohome {
     display: inline-block;
     margin: 0px 0px 0px 0px;
 }
-
 /*L.Ecureuil Mort*/
 h1.welcomepage {
     position: absolute;
@@ -264,7 +235,6 @@ h1.welcomepage {
     font-weight: 300;
     font-size: 42px;
 }
-
 h2.collective {
     position: absolute;
     margin: 53px 0px 0px 0px;
@@ -273,7 +243,6 @@ h2.collective {
     font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
 }
-
 h3.collective {
     position: absolute;
     margin: 55px 0px 0px 65px;
@@ -283,8 +252,6 @@ h3.collective {
     font-weight: 300;
     font-size: 15px;
 }
-
-
 /************************************************
     NAVIGATION TRIANGLE POSITION
 ***********************************************/
@@ -293,37 +260,31 @@ h3.collective {
     float: right;
     margin-right: 274px;
 }
-
 .triangleArt {
     opacity: 0.7;
     float: right;
     margin-right: 584px;
 }
-
 .trianglePhotography {
     opacity: 0.7;
     float: right;
     margin-right: 485px;
 }
-
 .triangleWriting {
     opacity: 0.7;
     float: right;
     margin-right: 360px;
 }
-
 .triangleAbout {
     opacity: 0.7;
     float: right;
     margin-right: 190px;
 }
-
 .triangleContact {
     opacity: 0.7;
     float: right;
     margin-right: 99px;
 }
-
 h4 {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     text-align: center;
@@ -336,7 +297,6 @@ h4 {
     max-width: 100%;
     text-decoration: underline;
 }
-
 .content-left1 .content-title {
     float: none;
     display: block;
@@ -359,7 +319,6 @@ h4 {
     border-bottom: 1px dotted #b9c9b8;
     text-align: center;
 }
-
 .content1 .content-about {
     font-family: 'Droid Serif',Georgia, Cambria ,"Times New Roman",Times,serif;
         color: rgba(0,0,0,0.65);
@@ -375,7 +334,6 @@ h4 {
 .hidden {
     display: none;
 }
-
 /****************************************************
             MARION HEADERS
 ****************************************************/
@@ -383,7 +341,6 @@ h4 {
     float: left;
     margin-top: 15px;
 }
-
 .marion-fayolle-website {
     margin: 15px auto;
     text-align: center;
@@ -394,9 +351,7 @@ h4 {
     letter-spacing: 2px;
     color: #353a35;
     opacity: 0.6;
-
 }
-
 .videofloat {
     position: relative;
     max-width: 400px;
@@ -414,30 +369,22 @@ h4 {
     color: #FAFAFA;
     top: 0; left: 0; bottom: 0; right: 0;
     background-color: rgba(0,0,0, .3);
-
     font-size: 6.5em;
     text-align: center;
     text-transform: uppercase;
     text-shadow:1px 2px rgba(0,0,0, 0.3);
     line-height: 230px;
-
     cursor: pointer;
 }
-
-
 [class*="entypo-check"]:before {
     font-family: 'entypo', sans-serif;
     position: absolute;
     color: #0F940D;
-
     margin: -60px 0 0 100px;
-
     font-size: 4em;
     text-align: center;
     text-shadow:1px 2px rgba(0,0,0, 0.3);
-
 }
-
 .scrollToTopp{
     color: #b9c9b8;
     text-decoration: none;
@@ -447,18 +394,15 @@ h4 {
     display: none;
     opacity: 0.6;
 }
-
 .scrollToTopp:hover{
     text-decoration:none;
     cursor: default;
 }
-
 .musicimg{
     float: left;
     cursor: pointer;
     cursor: hand;
 }
-
 .musicLink {
     text-decoration: none;
     color: #353a35;
@@ -468,17 +412,13 @@ h4 {
     -o-transition: all 140Roboto;
     transition: all 140Roboto;
 }
-
 a{
     text-decoration: none;
         color: #353a35;
 }
-
 a:hover  { 
     color:#b9c9b8;
 }
-
-
 #thumbs,
 #thumbs1,
 #thumbs2,
@@ -489,9 +429,6 @@ a:hover  {
 #thumbs7 {
     cursor: pointer;
 }
-
-
-
 /************************************************
     this section is dedicated CSS for EXPAND/COLLAPSE feature
     mostly attributed to WRITING SECTION 
@@ -502,7 +439,6 @@ a:hover  {
     display: block;
     margin: auto;
 }
-
 .expand, 
 .contract,
 .contract1
@@ -519,11 +455,9 @@ a:hover  {
  {
   color: #b9c9b8;
 }
-
 .hide {
   display: none;
 }
-
 .aboutImage{
     display: table;
     margin: 0px auto;
@@ -536,24 +470,21 @@ a:hover  {
     bottom: 2px;
     right: 16px;
 }
-
 .facebook {
     position: fixed;
     bottom: 70px;
     right: 15px;
 }
-
 .instagram {
     position: fixed;
     bottom: 35px;
     right: 15px;
 }
-
-    .twitter-mobile,
-    .facebook-mobile,
-    .instagram-mobile {
-        display: none;
-    }
+.twitter-mobile,
+.facebook-mobile,
+.instagram-mobile {
+    display: none;
+}
 
 /************************************************
         CONTACT FORM STYLING
@@ -590,28 +521,14 @@ select {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
-input:focus::-webkit-input-placeholder{
-    color: transparent!important;
-}
-input:focus::-moz-placeholder{
-    color: transparent!important;
-}
-input:focus:-moz-placeholder{
-    color: transparent!important;
-}
-
-textarea:focus::-webkit-input-placeholder{
-    color: transparent!important;
-}
-textarea:focus::-moz-placeholder{
-    color: transparent!important;
-}
-textarea:focus:-moz-placeholder{
-    color: transparent!important;
-}
-
+input:focus::-webkit-input-placeholder{color: transparent!important;}
+input:focus::-moz-placeholder{color: transparent!important;}
+input:focus:-moz-placeholder{color: transparent!important;}
+textarea:focus::-webkit-input-placeholder{color: transparent!important;}
+textarea:focus::-moz-placeholder{color: transparent!important;}
+textarea:focus:-moz-placeholder{color: transparent!important;}
 textarea {
-    background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.1);
   border: none;
   font-size: 16px;
   height: 200px;
@@ -624,7 +541,6 @@ textarea {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 20px;
 }
-
 button {
   padding: 9px 19px 8px 19px;
   color: #FFF;
@@ -643,20 +559,16 @@ button {
     -o-transition: background-color 0.2s ease-out;
     transition: background-color 0.2s ease-out;
 }
-
 button:active {
     position: relative;
     top: 1px;
 }
-
 button:focus {outline:0;}
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
   box-shadow: 0px 0px 3px #e6f0e6 inset;
 }
-
 button:hover {
     cursor: pointer;
     background-color: #a1b1a0;
@@ -665,18 +577,15 @@ button:hover {
 fieldset {
     border: none;
 }
-
 .contact-content-center {
         position: relative;
         width: 70%;
         margin: 0 auto;
         top: 40px;
 }
-
 .contact-content-center .writing-paragraph{
     font-size: 15px;
 }
-
 .return-home {
     display: table;
     text-align: center;
@@ -693,7 +602,6 @@ fieldset {
     -Roboto-transition: all 140ms;
     -o-transition: all 140ms;
     transition: all 140ms;
-
 }
 .return-home:hover{
     cursor: pointer;
@@ -707,7 +615,6 @@ fieldset {
 /************************************************
              Photography/Art-Post Styling
 ***********************************************/
-
 .art-post-content {
     width: 85%;
     margin: 60px auto 10px auto;
@@ -734,11 +641,9 @@ fieldset {
 .art-post-link {
     text-decoration: underline;
 }
-
 /************************************************
             Music-Post Styling
 ***********************************************/
-
 .music-post-videofloat {
     position: relative;
     margin: 15px;
@@ -758,7 +663,6 @@ fieldset {
 .music-label-link {
     margin-bottom: -7px;
 }
-
 .music-line-height {
     line-height: 430px !important;
 }
@@ -774,8 +678,6 @@ fieldset {
     height: 230px;
     margin: 57px auto -40px auto;
 }
-.play-list {}
-
 .play-all-wrapper {
     position: relative;
     margin-top: -10px;
@@ -791,12 +693,11 @@ fieldset {
 }
 .play-all-tip {
     color: #b9c9b8;
-    margin: -3px 0 0 9px
+    margin: -7px 0 0 10px;
 }
 /************************************************
         MEDIA QUERIES FOR SCREENS 1024
 ***********************************************/
-
 @media screen and (max-width: 1024px){
     body {
         background-color: ;
@@ -830,14 +731,14 @@ fieldset {
     border-bottom: 1px solid #b9c9b8;
     overflow: auto;
     }
+    .play-all-play {
+        display: none;
+    }
 }
-
 /************************************************
         MEDIA QUERIES FOR SCREENS 960
-***********************************************/
-
+************************************************/
 @media screen and (max-width: 960px){
-
     body {
         background-color: ;
     }
@@ -845,11 +746,9 @@ fieldset {
         margin: 0px;
         padding: 0px;
     }
-
     p {
         line-height: 1.8em;
     }
-    
     .logo,
     .triangleMusic,
     .triangleContact,
@@ -871,44 +770,35 @@ fieldset {
         border-bottom: 1px solid #b9c9b8;
         overflow: auto;
     }
-
     #unstyle {
         text-align: center;
         margin: 0px auto;
     }
-
-
     #unstyle ul li{
         text-align: center;
         padding: 3px 8px;
     }
-
     /* MOVEMEMT and stuff of nav bar*/
     #unstyle a {
         margin-top: 15px;
         font-size: 1.85em;
     }
-
     /*L.Ecureuil Mort*/
     h1.welcomepage {
         display: none;
     }
-
     h3.collective {
         display: none;
     }
-
     h2 {
         position: relative;
         text-align: center;
         margin: 10px auto 0px auto;
     }
-
     h5.long-ass-title{
         font-size: 150%;
         margin-bottom: 15px;
     }
-    
     .writing-title {
         margin: 35px auto 15px auto;
     }
@@ -944,23 +834,18 @@ fieldset {
         margin: 13px auto;
     }
 }
-
 /************************************************
         MEDIA QUERIES FOR SCREENS 720
 ***********************************************/
-
 @media screen and (max-width: 720px){
-
     ul {
         margin: 0px;
         padding: 0px;
     }
-
     h4 {
         position: relative;
         margin: 10px auto;
     }
-
     h2 {
         margin: 10px auto -11px auto;
     }
@@ -968,17 +853,14 @@ fieldset {
         display: block;
         clear: both;
     }
-
     #unstyle ul li{
         text-align: center;
         border: none;
         display: inline-block;
         width: 48%;
     }
-
     /* Firefox only. 1+ */
     #unstyle ul li,  x:-moz-any-link  { width: 45%; }
-
     #unstyle a {
         display: block;
         margin: 0px auto;
@@ -990,7 +872,6 @@ fieldset {
         border-radius: 5px;
         letter-spacing: 1px;
     }
-
     .content1, .content, {
         width: 100%;
         margin: 5px  auto 10px auto;
@@ -998,9 +879,6 @@ fieldset {
         border-bottom: 1px solid #a1b1a0;
         clear: both;
     }
-
-
-
     .content-left {
         clear: both;
 
@@ -1021,8 +899,6 @@ fieldset {
     .writing-paragraph-poem {
         padding-left: 26%;
     }
-
-
     /************************************************
         Contact Form Styling
     ***********************************************/
@@ -1055,14 +931,12 @@ fieldset {
     .selected {
         background-color: #b9c9b8;
     }
-
     .thumbImage {
         display: block;
         width: 100%;
         height: 100%;
         margin-bottom: 5px; 
     }
-
     #mygallery #largeImage {
         display: none;
     }
@@ -1075,7 +949,6 @@ fieldset {
     #gallery #largeImage1 {
         display: none;
     }
-
     .scrollToTop .scrollToTopp{
         z-index: 999;
         border: 2px solid white;
@@ -1115,31 +988,25 @@ fieldset {
        padding-left: 20%;
     }
 }
-
 /************************************************
         MEDIA QUERIES FOR SCREENS 600
 ***********************************************/
-
 @media screen and (max-width: 600px){
     
     p {
         line-height: 1.35em;
         text-align: left;
     }
-
     .writing-epilogue {
         font-size: 0.6em;
         width: 100%;
     }
-
     .writing-paragraph {
         line-height: 24px;
     }
-
     .expand, .contract, .contract1 {
         padding: 7px 20px;
     }
-
     h5.long-ass-title{
         font-size: 60%;
     }
@@ -1150,5 +1017,4 @@ fieldset {
     .writing-paragraph-poem {
        padding-left: 13%;
     }
-
 }

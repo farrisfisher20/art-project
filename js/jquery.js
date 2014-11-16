@@ -7,7 +7,9 @@ $(document).ready(function(){
   var $playWrapper = $('.play-list-wrapper');
   var $playTip = $('.play-all-tip');
 
-  $play.fadeIn(700);
+  if (window.outerWidth && window.outerWidth > 1024) {
+   $play.fadeIn(700);
+  }
 
   $play.click(function(){
     $('html, body').animate({scrollTop : 0});
@@ -22,8 +24,8 @@ $(document).ready(function(){
   });
   $play.mouseover(
       function(){ $playTip.removeClass('hidden'); 
-    }).mouseleave(function(){
-      $playTip.addClass('hidden');
+    }).mouseleave(
+      function(){ $playTip.addClass('hidden');
   });
 });
 /***********************************
@@ -129,7 +131,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.jaredwilson').on('click', function() {
-      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/_hGmwtSpabM?autoplay=1?&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/_hGmwtSpabM?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
   $('.versalife-vantagepoint').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/6EmWOTl1Gxs?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
@@ -363,7 +365,6 @@ $(document).ready(function(){
     $(this).addClass('hide');
   });
 });
-
 /***********************************
             Read More
 ***********************************/
@@ -379,7 +380,6 @@ $(document).ready(function(){
     $('.read-more').hide();
   }
 });
-
 /***********************************
             HOVER PLAYER
 ***********************************/
@@ -395,6 +395,4 @@ $(document).ready(function(){
       $(this).animate({'opacity': '0'});
     });
   }
-
 });
-
