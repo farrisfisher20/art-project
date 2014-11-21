@@ -640,6 +640,8 @@ fieldset {
 .art-post-content .art-post-writing {
     font-family: "Raleway","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
     opacity: 0.9;
+    margin-top: 8px;
+    padding: 3px 15px;
 }
 .art-post-link {
     text-decoration: underline;
