@@ -22,6 +22,9 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+	$('.dmarccantu').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/MiZo7P6o_QM?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.jaredwilson').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/_hGmwtSpabM?autoplay=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
