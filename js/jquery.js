@@ -130,6 +130,9 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+	$('.robertcrash').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/98ECR_-3LIk?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
 	$('.marxtrukker').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/MXlxpiZtfig?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
