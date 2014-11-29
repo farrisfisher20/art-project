@@ -4,18 +4,16 @@
     -webkit-font-smoothing: antialiased;
     font-smooting:          antialiased;
 }
-
 body {
 	margin: 0;
 	padding: 0;
-	height: 400vh;
 	background-color: #fcfcfc;
 }
 section {
 	position: relative;
 	display: block;
 	text-align: center;
-	top: 100px;
+	margin-top: 60px;
 	opacity: 0.1;
 }
 .wrapper {
@@ -54,7 +52,7 @@ section {
 }
 .main-nav .main-nav-ul li a {
 	text-decoration: none;
-	padding: 11px 30px 5px 15px;
+	padding: 11px 25px 5px 25px;
 	margin: 0;
 	color: #444943;
 
@@ -85,6 +83,7 @@ section {
 	font-size: 1.6rem;
 	font-weight: 300;
 }
-.main-nav .main-nav-ul li .ecureuil-mort-nav:hover {
-	border-bottom: 1px solid transparent;
+.main-nav .main-nav-ul li .main-nav-ecuireuil {
+	font-size: 1.4rem;
+	text-transform: capitalize;
 }
