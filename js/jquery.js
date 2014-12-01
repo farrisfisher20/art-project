@@ -105,6 +105,13 @@ $(document).ready(function(){
     });
 });
 }
+if (window.outerWidth && window.outerWidth > 700) {
+$(document).ready(function(){
+     $('#thumbs8 img').click(function(){
+        $('#largeImage8').hide().attr('src',$(this).attr('src').replace('thumb','large')).fadeIn('350');
+    });
+});
+}
 /***********************************
   Scroll to top logo function
 ***********************************/

@@ -426,7 +426,8 @@ a:hover  {
 #thumbs4,
 #thumbs5,
 #thumbs6,
-#thumbs7 {
+#thumbs7,
+#thumbs8 {
     cursor: pointer;
 }
 /************************************************
@@ -816,6 +817,7 @@ fieldset {
         width: 49%;
         height: 49%;
     }
+    #gallery #largeImage8,
     #gallery #largeImage7,
     #gallery #largeImage6,
     #gallery #largeImage5,

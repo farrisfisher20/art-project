@@ -32,11 +32,11 @@ section {
 	top: 0;
 	padding: 0;
 
-	border-bottom: 1px solid #BBBEBF;
+	border-bottom: 1px solid #B9C9B8;
 
 }
 .main-nav-shadow {
-	box-shadow: 0px 0px 3px #BBBEBF;
+	box-shadow: 0px 0px 4px 0px #BBBEBF;
 }
 .main-nav .main-nav-ul {
 	position: relative;
@@ -52,38 +52,52 @@ section {
 }
 .main-nav .main-nav-ul li a {
 	text-decoration: none;
-	padding: 11px 25px 5px 25px;
+	padding: 25px 25px 20px 25px;
 	margin: 0;
 	color: #444943;
 
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 1.2rem;
-	border-right: 1px solid rgba(0,0,0,0.1);
+	font-size: 1rem;
+	border-right: 1px solid #B9C9B8;
 }
 .main-nav .main-nav-ul li .right-nav {
 	border-right: 0px solid rgba(0,0,0,0.1);
 }
 .main-nav .main-nav-ul li a:hover {
+	background-color: ;
 	color: #B9C9B8;
+	border-top: -5px solid black;
 }
 .squirrel-logo {
-	height: 45px;
-	width: 45px;
-	margin-bottom: -16px;
+	height: 50px;
+	width: 50px;
+	margin-bottom: -20px;
 }
 .main-nav .main-nav-ul li .ecureuil-mort-nav {
 	position: fixed;
 	margin-right: 10px;
 	margin-top: 10px;
-	padding: 11px 15px 5px 15px;
-	line-height: 50px;
+	padding: 11px 14px 5px 15px;
+	line-height: 30px;
 	text-transform: capitalize;
 	font-size: 1.6rem;
 	font-weight: 300;
 }
 .main-nav .main-nav-ul li .main-nav-ecuireuil {
-	font-size: 1.4rem;
+	padding: 11px 14px 19px 15px;
+	font-size: 1.6rem;
+	font-weight: 200;
+	line-height: 40px;
 	text-transform: capitalize;
+}
+.a-collective {
+	position: fixed;
+	left: 261px;
+	top: 13px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: lowercase;
+	font-weight: 300;
+	font-size: 0.8rem;
 }
