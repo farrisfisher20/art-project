@@ -23,7 +23,7 @@ $(document).ready(function(){
     $play.show();
   });
   $play.mouseover(
-      function(){ $playTip.removeClass('hidden'); 
+      function(){ $playTip.removeClass('hidden');
     }).mouseleave(
       function(){ $playTip.addClass('hidden');
   });
@@ -137,6 +137,9 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+  $('.mrav').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/PVVHe9xYQSY?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
 	$('.robertcrash').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/98ECR_-3LIk?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
@@ -200,7 +203,7 @@ $(document).ready(function(){
   $('.huercos').on('click', function() {
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/_nxpDiN3LS0?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
-  
+
   $('.callsuper').on('click', function() {
       $(this).html('<iframe width="400" height="225" src="http://www.youtube.com/embed/M8n4f4xosgc?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
@@ -307,7 +310,7 @@ $(document).ready(function(){
 ***********************************/
 $(document).ready(function(){
   var animspeed = 1250; // animation speed in milliseconds
-  
+
   var $blockquote = $('.bigtext');
 
   var height = $blockquote.height()*1.07;
@@ -317,26 +320,26 @@ $(document).ready(function(){
      height = $blockquote.height()*1.09;
     mini = $('.bigtext .writing-paragraph').eq(0).height()*1.13;
   }
-  
+
   $blockquote.attr('data-fullheight',height+'px');
   $blockquote.attr('data-miniheight',mini+'px');
   $blockquote.css('height',mini+'px');
-  
+
   $('.expand').on('click', function(e){
     $text = $(this).prev();
-    
+
     $text.animate({
       'height': $text.attr('data-fullheight')
     }, animspeed);
     $(this).next('.contract').removeClass('hide');
     $(this).addClass('hide');
   });
-  
+
   $('.contract').on('click', function(e){
     $text = $(this).prev().prev();
 
     $('.content1').nextAll('.content1').hide().delay(1250).fadeIn(100);
-    
+
     $text.animate({
       'height': $text.attr('data-miniheight')
     }, animspeed);
@@ -347,7 +350,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   var animspeed = 1250; // animation speed in milliseconds
-  
+
   var $blockquote = $('.bigtext-one');
 
   var height = $blockquote.height()*1.08;
@@ -360,20 +363,20 @@ $(document).ready(function(){
   $blockquote.attr('data-fullheight',height+'px');
   $blockquote.attr('data-miniheight',mini+'px');
   $blockquote.css('height',mini+'px');
-  
+
   $('.expand').on('click', function(e){
     $text = $(this).prev();
-    
+
     $text.animate({
       'height': $text.attr('data-fullheight')
     }, animspeed);
     $(this).next('.contract1').removeClass('hide');
     $(this).addClass('hide');
   });
-  
+
   $('.contract1').on('click', function(e){
     $text = $(this).prev().prev();
-    
+
     $text.animate({
       'height': $text.attr('data-miniheight')
     }, animspeed);
@@ -400,7 +403,7 @@ $(document).ready(function(){
             HOVER PLAYER
 ***********************************/
 $(document).ready(function(){
-  
+
   $entypo = $('[class*="entypo-play"]');
   $entypo.css("opacity", "0");
 
