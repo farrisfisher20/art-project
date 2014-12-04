@@ -1,7 +1,7 @@
 /*********************************************************************
     This website was designed by:
     Ronald Yang + Dennis Brotzky
-    
+
     programmed by me.
 
     This is where the ghetto-magic happens
@@ -29,7 +29,7 @@ body {
 }
 p {
     text-align: justify;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: lighter;
     font-size: 1em;
     letter-spacing: 1px;
@@ -73,7 +73,7 @@ hr {
 .writing-title {
     text-align: center;
     color: rgba(0,0,0,0.8);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     margin: 8px auto;
 }
 .writing-title h5 {
@@ -120,7 +120,7 @@ hr {
 }
 h2 {
     position: absolute;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 0.9rem;
     font-weight: lighter;
     color: #353a35;
@@ -390,7 +390,7 @@ h4 {
     text-decoration: none;
     position:fixed;
     margin-top:74px;
-    margin-left: -6px; 
+    margin-left: -6px;
     display: none;
     opacity: 0.6;
 }
@@ -416,7 +416,7 @@ a{
     text-decoration: none;
         color: #353a35;
 }
-a:hover  { 
+a:hover  {
     color:#b9c9b8;
 }
 #thumbs,
@@ -432,7 +432,7 @@ a:hover  {
 }
 /************************************************
     this section is dedicated CSS for EXPAND/COLLAPSE feature
-    mostly attributed to WRITING SECTION 
+    mostly attributed to WRITING SECTION
 ***********************************************/
 .bigtext-one,
 .bigtext {
@@ -440,7 +440,7 @@ a:hover  {
     display: block;
     margin: auto;
 }
-.expand, 
+.expand,
 .contract,
 .contract1
  {
@@ -450,7 +450,7 @@ a:hover  {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1.4rem;
 }
-.expand:hover, 
+.expand:hover,
 .contract:hover,
 .contract:hover
  {
@@ -619,7 +619,7 @@ fieldset {
 .art-post-content {
     width: 85%;
     margin: 60px auto 10px auto;
-    text-align: center; 
+    text-align: center;
 }
 .art-post-art {
     width: 100%;
@@ -657,7 +657,7 @@ fieldset {
     min-height: 100%;
 }
 .music-artist-info-container {
-    position: relative; 
+    position: relative;
 }
 .artist-content-left {
     margin: 10px auto;
@@ -673,7 +673,7 @@ fieldset {
     line-height: 430px !important;
 }
 /************************************************
-            Music Auto-Play 
+            Music Auto-Play
 ***********************************************/
 .play-list-hidden {
     display: none;
@@ -824,7 +824,7 @@ fieldset {
     #gallery #largeImage4,
     #gallery #largeImage3,
     #gallery #largeImage2,
-    #gallery #largeImage1, 
+    #gallery #largeImage1,
     #gallery #largeImage,
     #mygallery #largeImage1,
     #mygallery #largeImage {
@@ -942,7 +942,7 @@ fieldset {
         display: block;
         width: 100%;
         height: 100%;
-        margin-bottom: 5px; 
+        margin-bottom: 5px;
     }
     #mygallery #largeImage {
         display: none;
@@ -999,7 +999,7 @@ fieldset {
         MEDIA QUERIES FOR SCREENS 600
 ***********************************************/
 @media screen and (max-width: 600px){
-    
+
     p {
         line-height: 1.35em;
         text-align: left;
