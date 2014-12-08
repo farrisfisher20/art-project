@@ -22,6 +22,9 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+  $('.mrav').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/PVVHe9xYQSY?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
 	$('.robertcrash').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/98ECR_-3LIk?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
@@ -49,7 +52,7 @@ $(document).ready(function(){
             HOVER PLAYER
 ***********************************/
 $(document).ready(function(){
-  
+
   $entypo = $('[class*="entypo-play"]');
   $entypo.css("opacity", "0", 'line-height', '400px').css('line-height', '400px');
 
