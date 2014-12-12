@@ -647,6 +647,10 @@ fieldset {
 .art-post-link {
     text-decoration: underline;
 }
+.art-post-eli {
+    border: 1px solid #F7F7F7;
+    margin: 25px auto;
+}
 /************************************************
             Music-Post Styling
 ***********************************************/
