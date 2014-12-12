@@ -844,6 +844,11 @@ fieldset {
     .art-post-art {
         margin: 13px auto;
     }
+    .art-post-eli {
+        width:  100%;
+        border: 1px solid #F7F7F7;
+        margin: 10px auto;
+    }
 }
 /************************************************
         MEDIA QUERIES FOR SCREENS 720
@@ -998,6 +1003,11 @@ fieldset {
     .writing-paragraph-poem {
        padding-left: 20%;
     }
+    .art-post-eli {
+        width:  100%;
+        border: 1px solid #F7F7F7;
+        margin: 10px auto;
+    }
 }
 /************************************************
         MEDIA QUERIES FOR SCREENS 600
@@ -1027,5 +1037,10 @@ fieldset {
     }
     .writing-paragraph-poem {
        padding-left: 13%;
+    }
+    .art-post-eli {
+        width:  100%;
+        border: 1px solid #F7F7F7;
+        margin: 10px auto;
     }
 }
