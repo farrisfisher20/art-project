@@ -20,8 +20,10 @@ $(document).ready(function(){
 /***********************************
    Music page Youtube Image Load
 ***********************************/
-
 $(document).ready(function(){
+	$('.huercos-opal').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/UZ6FM_0yJAc?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.mrav').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/PVVHe9xYQSY?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
