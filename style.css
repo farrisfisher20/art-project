@@ -25,7 +25,7 @@ body {
 }
 @font-face {
     font-family: "Roboto";
-    src: url(font/ASans.ttf) format("truetype");
+    src: url(../../font/ASans.ttf) format("truetype");
 }
 p {
     text-align: justify;
