@@ -136,8 +136,10 @@ $(document).ready(function(){
 /***********************************
    Music page Youtube Image Load
 ***********************************/
-
 $(document).ready(function(){
+    $('.nummer').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/0sMirKhORtA?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.huercos-opal').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/UZ6FM_0yJAc?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });

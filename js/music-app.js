@@ -20,7 +20,11 @@ $(document).ready(function(){
 /***********************************
    Music page Youtube Image Load
 ***********************************/
+//www.youtube.com/embed/0sMirKhORtA
 $(document).ready(function(){
+   $('.nummerl').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/UZ6FM_0yJAc?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
 	$('.huercos-opal').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/UZ6FM_0yJAc?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
