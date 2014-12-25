@@ -137,6 +137,9 @@ $(document).ready(function(){
    Music page Youtube Image Load
 ***********************************/
 $(document).ready(function(){
+  $('.corndogs').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/RN00ld15EyM?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
     $('.nummer').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/0sMirKhORtA?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });

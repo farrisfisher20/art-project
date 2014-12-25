@@ -22,8 +22,11 @@ $(document).ready(function(){
 ***********************************/
 //www.youtube.com/embed/0sMirKhORtA
 $(document).ready(function(){
-   $('.nummerl').on('click', function() {
-      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/UZ6FM_0yJAc?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  $('.corndogs').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/RN00ld15EyM?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
+   $('.nummer').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/0sMirKhORtA?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
 	$('.huercos-opal').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/UZ6FM_0yJAc?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
