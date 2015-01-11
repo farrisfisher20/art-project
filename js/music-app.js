@@ -22,6 +22,12 @@ $(document).ready(function(){
 ***********************************/
 //www.youtube.com/embed/0sMirKhORtA
 $(document).ready(function(){
+  $('.appian').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/FJSOdnqYLd4?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
+   $('.innershades').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/loG4xB4HGa8?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.corndogs').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/RN00ld15EyM?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
