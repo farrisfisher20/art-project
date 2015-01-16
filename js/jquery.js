@@ -137,6 +137,9 @@ $(document).ready(function(){
    Music page Youtube Image Load
 ***********************************/
 $(document).ready(function(){
+  $('.ladyfrnd').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/M-s7Z7HIoc0?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.appian').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/FJSOdnqYLd4?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
@@ -429,4 +432,35 @@ $(document).ready(function(){
       $(this).animate({'opacity': '0'});
     });
   }
+});
+
+$(document).ready(function(){
+  $( ".mobile-toggle" ).click(function() {
+    if ( $('.mobile-sandwich').hasClass('fa-bars') ) {
+      $('.mobile-sandwich').removeClass('fa-bars').addClass('fa-close');
+
+      $( "nav" ).animate({
+        top: "50px"
+      }, 500, function() {
+        // Animation complete.
+      });
+     $('.mobile-nav').animate({
+        boxShadow : "0px 0px 0px 0px #fff"
+      }, 500, function() {
+        // Animation complete.
+      });
+   } else {
+      $('.mobile-sandwich').removeClass('fa-close').addClass('fa-bars');
+
+      $( "nav" ).animate({
+        top: "-250px",
+      }, 500, function() {
+        // Animation complete.
+      });
+      $('.mobile-nav').animate({
+        boxShadow : "0px 1px 4px 0px #6C6C6C"
+      }, 500, function() {
+        });
+    } // close else
+  }); // close click
 });

@@ -18,7 +18,7 @@ html {
 }
 body {
     height: 100%;
-    margin: 10px 0px;
+    margin: 0px;
     padding: 0px;
     background-color: #FAFAFA;
     font-color: rgb(172, 189, 169);
@@ -207,6 +207,41 @@ h1 {
     font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 20px;
     float: left;
+}
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  line-height: 23px;
+  padding: 0px 0px 0px 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 1px 4px #6C6C6C;
+}
+.mobile-header {
+  font-size: 1.6em;
+}
+.mobile-sandwich {
+  font-size: 1.4rem;
+}
+.mobile-toggle {
+  float: right;
+  width: 50px;
+  color: #4e4e4e;
+  background-color: transparent;
+  padding: 5px;
+  margin: 0;
+  font-size: 2em;
+  line-height: 40px;
+  text-align: center;
+}
+.mobile-toggle:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #4e4e4e;
 }
 .content-left {
     float: left;
@@ -552,7 +587,6 @@ button {
   border-radius: 5px;
   width: 20%;
   border: 1px solid #B9C9B8;
-  border-width: 1px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
     -webkit-transition: background-color 0.2s ease-out
@@ -575,6 +609,7 @@ button:hover {
     background-color: #a1b1a0;
     color: white;
 }
+
 fieldset {
     border: none;
 }
@@ -582,7 +617,7 @@ fieldset {
         position: relative;
         width: 70%;
         margin: 0 auto;
-        top: 40px;
+        top: 60px;
 }
 .contact-content-center .writing-paragraph{
     font-size: 15px;
@@ -590,9 +625,9 @@ fieldset {
 .return-home {
     display: table;
     text-align: center;
-    margin: 20px auto;
+    margin: 0px auto 25px auto;
     font-family: "Raleway", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
-    font-size: 1em;
+    font-size: 1.2rem;
     text-decoration: underline;
     font-weight: lighter;
     letter-spacing: 2px;
@@ -630,6 +665,7 @@ fieldset {
 }
 .art-post-title{
     width: 100%;
+    top: 7px;
     font-family: "Raleway","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
     font-size: 1.2em;
     font-weight: lighter;
@@ -752,10 +788,6 @@ fieldset {
     body {
         background-color: ;
     }
-    #unstyle ul{
-        margin: 0px;
-        padding: 0px;
-    }
     p {
         line-height: 1.8em;
     }
@@ -768,9 +800,8 @@ fieldset {
     .triangleArt {
         display: none;
     }
-
     #wrapper {
-        width: 98%;
+        width: 100%;
         margin: 0px auto;
     }
     .content1, .content {
@@ -783,6 +814,10 @@ fieldset {
     #unstyle {
         text-align: center;
         margin: 0px auto;
+    }
+    #unstyle ul{
+        margin: 0px;
+        padding: 0px;
     }
     #unstyle ul li{
         text-align: center;
@@ -869,31 +904,44 @@ fieldset {
         display: block;
         clear: both;
     }
+    nav {
+      z-index: 999;
+      position: fixed;
+      width: 100%;
+      box-shadow: 0px 1px 4px #6C6C6C;
+      top: -250px;
+    }
     #unstyle ul li{
         text-align: center;
         border: none;
         display: inline-block;
-        width: 48%;
+        width: 50%;
     }
     /* Firefox only. 1+ */
-    #unstyle ul li,  x:-moz-any-link  { width: 45%; }
+    #unstyle ul li {
+      z-index: 99999;
+      width: 50%;
+      padding: 0px;
+      background-color: #f9f9f9;
+    }
     #unstyle a {
         display: block;
-        margin: 0px auto;
-        padding: 8px;
-        font-size: 1.3em;
-        border: 1px solid rgba(53,58,53, 0.4);
-        box-shadow: 0 1px 1px rgba(0,0,0,0.05) inset;
-        box-shadow: 1px 2px 1px rgba(0,0,0,0.1) ;
-        border-radius: 5px;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 1.4em;
+        box-shadow: 1px 2px 1px rgba(0,0,0,.1);
         letter-spacing: 1px;
+        border: 1px solid #FFF;
     }
-    .content1, .content, {
+    .content1, .content {
         width: 100%;
         margin: 5px  auto 10px auto;
         padding: 0px;
         border-bottom: 1px solid #a1b1a0;
         clear: both;
+    }
+    .content1 {
+      margin-top:55px;
     }
     .content-left {
         clear: both;
@@ -969,11 +1017,10 @@ fieldset {
         z-index: 999;
         border: 2px solid white;
         background-color: rgba(53,58,53, 0.2);
-        border-radius: 5px;
         color: white;
         font-size: 2em;
         text-shadow: 1px 2px rgba(53,58,53, 1);
-        top: -65px;
+        bottom: 5px;
         right: -5px;
         padding: 1px 19px;
         cursor: pointer;
@@ -995,7 +1042,7 @@ fieldset {
     }
     .art-post-content {
         width: 100%;
-        margin: auto auto 10px auto;
+        margin: 50px auto 10px auto;
     }
     .art-post-art {
         margin: auto;
@@ -1008,6 +1055,8 @@ fieldset {
         border: 1px solid #F7F7F7;
         margin: 10px auto;
     }
+    .mobile-nav {
+    display: block;
 }
 /************************************************
         MEDIA QUERIES FOR SCREENS 600
