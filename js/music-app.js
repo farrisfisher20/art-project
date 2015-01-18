@@ -22,6 +22,9 @@ $(document).ready(function(){
 ***********************************/
 //www.youtube.com/embed/0sMirKhORtA
 $(document).ready(function(){
+  $('.blankmind').on('click', function() {
+      $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/PVvOkYduVfQ?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.ladyfrnd').on('click', function() {
       $(this).html('<iframe width="100%" height="454" src="http://www.youtube.com/embed/M-s7Z7HIoc0?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });

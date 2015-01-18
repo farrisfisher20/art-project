@@ -136,7 +136,11 @@ $(document).ready(function(){
 /***********************************
    Music page Youtube Image Load
 ***********************************/
+
 $(document).ready(function(){
+  $('.blankmind').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/PVvOkYduVfQ?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.ladyfrnd').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/M-s7Z7HIoc0?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
