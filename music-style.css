@@ -1,7 +1,7 @@
 /*
     This website was designed by:
     Ronald Yang + Dennis Brotzky
-    
+
     programmed by me.
 
     This is where the ghetto-magic happens
@@ -35,7 +35,7 @@ body {
 
 p {
     text-align: justify;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: lighter;
     font-size: 1em;
     letter-spacing: 1px;
@@ -82,7 +82,7 @@ hr {
 .writing-title {
     text-align: center;
     color: rgba(0,0,0,0.8);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     margin: 8px auto;
 }
 
@@ -132,7 +132,7 @@ hr {
 
 h2 {
     position: absolute;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 0.9rem;
     font-weight: lighter;
     color: #353a35;
@@ -179,6 +179,7 @@ ul {
     font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     color: #353a35;
+    cursor: pointer;
     -webkit-transition: all 140ms;
     -moz-transition: all 140ms;
     -Roboto-transition: all 140ms;
@@ -442,7 +443,7 @@ h4 {
     text-decoration: none;
     position:fixed;
     margin-top:74px;
-    margin-left: -6px; 
+    margin-left: -6px;
     display: none;
     opacity: 0.6;
 }
@@ -473,7 +474,7 @@ a{
         color: #353a35;
 }
 
-a:hover  { 
+a:hover  {
     color:#b9c9b8;
 }
 
@@ -492,7 +493,7 @@ a:hover  {
 
 /************************************************
     this section is dedicated CSS for EXPAND/COLLAPSE feature
-    mostly attributed to WRITING SECTION 
+    mostly attributed to WRITING SECTION
 ***********************************************/
 .bigtext-one,
 .bigtext {
@@ -501,7 +502,7 @@ a:hover  {
     margin: auto;
 }
 
-.expand, 
+.expand,
 .contract,
 .contract1
  {
@@ -511,7 +512,7 @@ a:hover  {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1.4rem;
 }
-.expand:hover, 
+.expand:hover,
 .contract:hover,
 .contract:hover
  {
@@ -709,7 +710,7 @@ fieldset {
 .art-post-content {
     width: 85%;
     margin: 60px auto 10px auto;
-    text-align: center; 
+    text-align: center;
 }
 .art-post-art {
     width: 100%;
@@ -743,7 +744,7 @@ fieldset {
     min-height: 454px;
 }
 .music-artist-info-container {
-    position: relative; 
+    position: relative;
 }
 .artist-content-left {
     margin: 10px auto;
@@ -783,7 +784,7 @@ fieldset {
         width: 100%;
     }
 
- 
+
     .twitter-mobile,
     .facebook-mobile,
     .instagram-mobile {
@@ -916,27 +917,24 @@ fieldset {
         display: block;
         clear: both;
     }
-
-    #unstyle ul li{
-        text-align: center;
+    /* Firefox only. 1+ */
+    #unstyle ul li  {
+      text-align: center;
         border: none;
         display: inline-block;
-        width: 48%;
-    }
-
-    /* Firefox only. 1+ */
-    #unstyle ul li,  x:-moz-any-link  { width: 45%; }
+      z-index: 99999;
+      width: 50%;
+      padding: 0px;
+      background-color: #f9f9f9;}
 
     #unstyle a {
         display: block;
-        margin: 0px auto;
-        padding: 8px;
-        font-size: 1.3em;
-        border: 1px solid rgba(53,58,53, 0.4);
-        box-shadow: 0 1px 1px rgba(0,0,0,0.05) inset;
-        box-shadow: 1px 2px 1px rgba(0,0,0,0.1) ;
-        border-radius: 5px;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 1.4em;
+        box-shadow: 1px 2px 1px rgba(0,0,0,.1);
         letter-spacing: 1px;
+        border: 1px solid #FFF;
     }
 
     .content1, .content, {
@@ -962,19 +960,19 @@ fieldset {
 
     .music-post-videofloat {
         position: relative;
-        margin: 5px;
-        width: 98%;
+        margin: 23px 5px 0px 5px;
+        width: 97%;
         height: 230px;
     }
     .music-artist-info-container {
-        position: relative; 
+        position: relative;
     }
     .artist-content-left {
         margin: 10px auto;
         clear: both;
     }
     .music-click-image {
-        margin: 10px 0px -25px 0px;
+        display: none;
     }
     .music-label-link {
         margin-bottom: -7px;
@@ -989,7 +987,7 @@ fieldset {
 ***********************************************/
 
 @media screen and (max-width: 600px){
-    
+
     p {
         line-height: 1.4em;
         text-align: left;

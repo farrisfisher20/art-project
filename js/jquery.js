@@ -439,6 +439,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  // TOGGLE MENU
   $( ".mobile-toggle" ).click(function() {
     if ( $('.mobile-sandwich').hasClass('fa-bars') ) {
       $('.mobile-sandwich').removeClass('fa-bars').addClass('fa-close');
