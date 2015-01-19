@@ -162,21 +162,14 @@ ul {
     font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     color: #353a35;
-    -webkit-transition: all 140ms;
-    -moz-transition: all 140ms;
-    -Roboto-transition: all 140ms;
-    -o-transition: all 140ms;
-    transition: all 140ms;
+    -webkit-transition: all 200ms ease;
+    -moz-transition:    all 200ms ease;
+    -o-transition:         all 200ms ease;
+    transition:             all 200ms ease;
 }
 #unstyle li:hover a{
     color: #b9c9b8;
     background-color: none;
-    -webkit-transition: all 140ms;
-    -moz-transition: all 140ms;
-    -Roboto-transition: all 140ms;
-    -o-transition: all 140ms;
-    transition: all 140ms;
-
 }
 /*2nd--> etc Content box*/
 .content {
@@ -332,6 +325,10 @@ h4 {
     border-bottom: 1px dotted #b9c9b8;
     max-width: 100%;
     text-decoration: underline;
+    -webkit-transition: all 200ms ease;
+    -moz-transition:    all 200ms ease;
+    -o-transition:         all 200ms ease;
+    transition:             all 200ms ease;
 }
 .content-left1 .content-title {
     float: none;
@@ -343,6 +340,10 @@ h4 {
     border-top: 1px dotted #b9c9b8;
     border-bottom: 1px dotted #b9c9b8;
     text-align: center;
+    -webkit-transition: all 200ms ease;
+    -moz-transition:    all 200ms ease;
+    -o-transition:         all 200ms ease;
+    transition:             all 200ms ease;
 }
 .content-left .content-title {
     float: none;
@@ -354,6 +355,14 @@ h4 {
     border-top: 1px dotted #b9c9b8;
     border-bottom: 1px dotted #b9c9b8;
     text-align: center;
+    -webkit-transition: all 200ms ease;
+    -moz-transition:    all 200ms ease;
+    -o-transition:         all 200ms ease;
+    transition:             all 200ms ease;
+}
+.content-left1 .content-title:hover,
+.content-left .content-title:hover {
+    color: #b9c9b8;
 }
 .content1 .content-about {
     font-family: 'Droid Serif',Georgia, Cambria ,"Times New Roman",Times,serif;
@@ -361,10 +370,10 @@ h4 {
         font-weight: lighter;
         font-size: 16px;
         letter-spacing: 1px;
-        margin: 5px auto 15px auto;
+        margin: 15px auto 15px auto;
         width: 93%;
-        line-height: 30px;
-        text-align: justify;
+        line-height: 29px;
+        text-align: left;
         width: 100%;
 }
 .hidden {
@@ -378,14 +387,14 @@ h4 {
     margin-top: 15px;
 }
 .marion-fayolle-website {
-    margin: 15px auto;
+    margin: 10px auto;
     text-align: center;
     font-family: "Raleway", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: lighter;
     border: none;
     letter-spacing: 2px;
-    color: #353a35;
+    text-decoration: underline;
     opacity: 0.6;
 }
 .videofloat {
@@ -451,6 +460,10 @@ h4 {
 a{
     text-decoration: none;
         color: #353a35;
+        -webkit-transition: all 200ms ease;
+    -moz-transition:    all 200ms ease;
+    -o-transition:         all 200ms ease;
+    transition:             all 200ms ease;
 }
 a:hover  {
     color:#b9c9b8;
@@ -1058,6 +1071,12 @@ fieldset {
     }
     .mobile-nav {
     display: block;
+    }
+    p {
+        line-height: 1.35em;
+        text-align: left;
+        padding: 0px 0px 12px 0px;
+    }
 }
 /************************************************
         MEDIA QUERIES FOR SCREENS 600
@@ -1067,6 +1086,7 @@ fieldset {
     p {
         line-height: 1.35em;
         text-align: left;
+        padding: 0px 0px 12px 0px;
     }
     .writing-epilogue {
         font-size: 0.6em;
