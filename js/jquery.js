@@ -138,6 +138,9 @@ $(document).ready(function(){
 ***********************************/
 
 $(document).ready(function(){
+  $('.parrish-solitary').on('click', function() {
+      $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/I7tfNm-hi0A?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
+  });
   $('.blankmind').on('click', function() {
       $(this).html('<iframe width="400" height="100%" src="http://www.youtube.com/embed/PVvOkYduVfQ?autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>').css('background', 'none');
   });
